@@ -6,7 +6,8 @@ class Student < ActiveRecord::Base
   # @student = @student.to_s
 
   def to_s
-    @student = "#{@student.first_name} {@student.last_name}"
+    "#{Student.first_name} {Student.last_name}"
+    # @student = "#{@student.first_name} {@student.last_name}"
     # binding.pry
     #
     # @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
