@@ -7,10 +7,10 @@ class Student < ActiveRecord::Base
 
   def to_s
     "#{@student.first_name} {@student.last_name}"
-    binding.pry
-
-    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
-    @student = @student.first_name + " " + @student.last_name
+    # binding.pry
+    #
+    # @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
+    # @student = @student.first_name + " " + @student.last_name
     # binding.pry
   end
 end
