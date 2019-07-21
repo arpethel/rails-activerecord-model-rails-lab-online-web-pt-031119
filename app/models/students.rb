@@ -1,2 +1,2 @@
-class Post < ActiveRecord::Base
+class Students < ActiveRecord::Base
 end
