@@ -7,5 +7,6 @@ class Student < ActiveRecord::Base
 
   def to_s
     @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
+    binding.pry
   end
 end
