@@ -5,7 +5,7 @@ class Student < ActiveRecord::Base
   # @student = @student.first_name + " " + @student.last_name
   # @student = @student.to_s
 
-  def student.to_s
-
+  def to_s
+    binding.pry
   end
 end
