@@ -6,6 +6,6 @@ class Student < ActiveRecord::Base
   # @student = @student.to_s
 
   def to_s
-    binding.pry
+    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
   end
 end
