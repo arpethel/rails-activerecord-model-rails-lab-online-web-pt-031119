@@ -6,7 +6,6 @@ class Student < ActiveRecord::Base
   # @student = @student.to_s
 
   def to_s
-    # binding.pry
     "#{first_name} #{last_name}"
   end
 end
